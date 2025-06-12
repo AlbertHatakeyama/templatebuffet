@@ -57,8 +57,8 @@ else {
 
         <!--======= Font da LP ==========-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
         <!--======= FOLHAS DE ESTILOS ==========-->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -74,7 +74,7 @@ else {
         <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a href="/#" class="navbar-brand" onclick="toggleSocialIcons(event)">
-                    <img src="<?=$url?>assets/imagens/logos/logo_pqn.png" alt="Logo" class="img-fluid">
+                    <img src="<?=$url?>assets/imagens/logos/logo_pequeno.png" alt="Logo" class="img-fluid">
                 </a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,24 +84,24 @@ else {
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="<?=$url?>">Home</a>
+                            <a class="nav-link" href="<?=$url?>#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?=$url?>sobre_nos">Sobre Nós</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?=$url?>produtos">Produtos</a>
+                            <a class="nav-link" href="<?=$url?>quem_somos">Sobre Nós</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?=$url?>servicos">Serviço</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?=$url?>blog">Blog</a>
+                            <a class="nav-link" href="<?=$url?>cardapio">Cardápio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?=$url?>galeria">Galeria</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav">
-                        <li class="nav-item contato">
-                            <a class="nav-link btn btn-primary" href="<?=$url?>contatos">Contato</a>
+                        <li class="nav-item ">
+                            <a class="nav-link btn btn-primary" href="<?=$url?>orcamento">Orçamento</a>
                         </li>
                     </ul>
                 </div>
