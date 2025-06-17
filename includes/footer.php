@@ -1,5 +1,5 @@
 <!--====== SECTION FINAL - FOOTER =======-->
-    <section class="bg-dark p-4">
+    <section class="footer p-4">
         <footer class="container">
             <div class="px-3">
                 <div class="row align-items-center justify-content-center justify-content-md-between mb-4">
@@ -10,17 +10,17 @@
                             </div>
                             <li class="mb-2">
                                 <a href="https://www.google.com/maps/place/Av.+Inconfid%C3%AAncia+Mineira,+1142+-+Vila+Antonieta,+S%C3%A3o+Paulo+-+SP,+03911-000/@-23.5760042,-46.5178674,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce677d9e69b0c7:0x351d89bffbb0651c!8m2!3d-23.5760091!4d-46.5152925!16s%2Fg%2F11c2h_wdjv?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D" class="text-decoration-none text-white">
-                                    Avenida Inconfidência Mineira,1142- Vila Antonieta - SP - CEP: 03476-010
+                                    Av. do Cursino, 1273 - Jardim da Saúde, São Paulo CEP - 04133-100
                                 </a>
                             </li>
                             <li class="mb-2">
                                 <a href="obrigado-whatsapp" class="text-decoration-none text-white">
-                                    WhatsApp: (11) 97884-4375
+                                    WhatsApp: (11) 12345-6789
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a href="mailto:envios@naturalcalm.com.br" class="text-decoration-none text-white">
-                                    E-mail: envios@naturalcalm.com.br
+                                <a href="mailto:envios@bmasolucoesdigitais.com.br" class="text-decoration-none text-white">
+                                    E-mail: envios@bmasolucoesdigitais.com.br
                                 </a>
                             </li>
                         </ul>
@@ -30,23 +30,23 @@
                             <div class="text-center">
                                 <h1><b>Menu</b></h1>
                                 <li class="mb-2">
-                                    <a href="<?=$url?>." class="text-decoration-none text-white">
+                                    <a href="." class="text-decoration-none">
                                         Home
                                     </a>
                                 </li>
                                 <li class="mb-2">
-                                    <a href="<?=$url?>sobre_nos" class="text-decoration-none text-white">
+                                    <a href="sobre_nos" class="text-decoration-none">
                                         Sobre nós
                                     </a>
                                 </li>
                                 <li class="mb-2">
-                                    <a href="<?=$url?>sobre_nos" class="text-decoration-none text-white">
-                                        Produtos
+                                    <a href="servicos" class="text-decoration-none">
+                                        Serviços
                                     </a>
                                 </li>
                                 <li class="mb-2">
-                                    <a href="<?=$url?>sobre_nos" class="text-decoration-none text-white">
-                                        Serviços
+                                    <a href="galeria" class="text-decoration-none">
+                                        Galeria
                                     </a>
                                 </li>
                             </div>
@@ -56,10 +56,10 @@
                         <ul class="d-flex rede-social">
                             <?php 
                                 $redes_sociais = [
-                                    ['fab fa-facebook', 'https://www.facebook.com/naturalcalm'],
-                                    ['fab fa-instagram', 'https://www.instagram.com/naturalcalm'],
-                                    ['fab fa-linkedin', 'https://www.linkedin.com/company/naturalcalm/'],
-                                    ['fa-brands fa-youtube', 'https://www.youtube.com/@naturalcalm']
+                                    ['fab fa-facebook', 'https://www.facebook.com/'],
+                                    ['fab fa-instagram', 'https://www.instagram.com/'],
+                                    ['fab fa-linkedin', 'https://www.linkedin.com/company//'],
+                                    ['fa-brands fa-youtube', 'https://www.youtube.com/']
                                 ];
                                 
                                 foreach ($redes_sociais as $rede_social) {
@@ -90,7 +90,7 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                         <p class="m-0 text-center py-3 px-3 ">
-                            <span >© Todos os direitos reservados | 2021- <?php echo date('Y'); ?></span>
+                            <span >© Todos os direitos reservados | 2021 - <?php echo date('Y'); ?></span>
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12">
@@ -132,7 +132,7 @@
     </section>
     
     <?php 
-        if($config->whatsapp != "https://wa.me/5511978844375?text=Quero%20saber%20mais%20sobre%20os%20servi%C3%A7osa"){
+        if($config->whatsapp != "https://wa.me/5511123456789?text=Quero%20saber%20mais%20sobre%20os%20servi%C3%A7osa"){
     ?>
         <!--====== BOTÃO FLUTUANTE WHATSAPP =======-->
         <a id="whatsApp" href="obrigado-whatsapp" target="_black">
@@ -174,21 +174,34 @@
 
     <script src="<?=$url?>assets/lottiefiles/lottie-player.js"></script>
 
-
-
-    <!-- script Glider -->
-
-    <script src="<?=$url?>assets/glider/glider.min.js"></script>
-
-
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- script principal -->
 
     <script src="<?=$url?>assets/index.js"></script>
 
-    <!-- Swiper JS -->
-     
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: swiper,
+        },
+        });
+    </script>
+    
 
 </body>
 

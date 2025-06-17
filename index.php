@@ -100,50 +100,56 @@
             <div class="page-section titulo-card">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 animacao animate-slide-in-right" data-animation-type="right" data-animation-delay="0.<?= rand(0, 4) ?>s" style="animation-delay: 0s;">
-                        <img src="assets/imagens/servicos/servicos_1.jpg" class="img-fluid bord-img">
+                        <div class="text-center">
+                            <img src="assets/imagens/servicos/servico_1.jpg" class="img-fluid bord-img">
+                        </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 animacao animate-slide-in-left" data-animation-type="left" data-animation-delay="0.<?= rand(0, 4) ?>s" style="animation-delay: 0s;">
-                        <div class="my-4">
+                        <div class="px-4 my-4">
                             <h3 >Aniversários Temáticos</h3>
                             <p>
-                                Oferecemos festas personalizadas com decoração temática, brinquedos, buffet completo, recreadores e muito mais.
+                                Transformamos o aniversário dos sonhos em realidade! Com decorações personalizadas, personagens vivos, atividades lúdicas e todo o charme dos temas favoritos das crianças, criamos experiências inesquecíveis. Nossa equipe cuida de cada detalhe: do bolo à lembrancinha, tudo com muito carinho, segurança e diversão garantida.
                             </p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-lg-2 order-md-2 animacao animate-slide-in-right" data-animation-type="right" data-animation-delay="0.<?= rand(0, 4) ?>s" style="animation-delay: 0s;">
-                        <img src="assets/imagens/servicos/servicos_2.jpeg" class="img-fluid bord-img ">
+                        <div class="text-center">
+                            <img src="assets/imagens/servicos/servico_2.jpg" class="img-fluid bord-img ">
+                        </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-lg-1 order-md-1 animacao animate-slide-in-left" data-animation-type="left" data-animation-delay="0.<?= rand(0, 4) ?>s" style="animation-delay: 0s;">
-                        <div class="p-4 my-4">
+                        <div class="px-4 my-4">
                             <h3 >Mini Eventos e Chá Revelação</h3>
                             <p>
-                                Também fazemos eventos mais intimistas, com charme e qualidade.
+                                Para momentos íntimos e cheios de emoção! Seja para um mini wedding, batizado, chá de bebê ou chá revelação, oferecemos soluções criativas, delicadas e completas. Decoração, doces, som ambiente e até aquela surpresa especial — tudo pensado para tornar cada instante ainda mais memorável.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 animacao animate-slide-in-right  " data-animation-type="right" data-animation-delay="0.<?= rand(0, 4) ?>s" style="animation-delay: 0s;">
-                        <img src="assets/imagens/servicos/servicos_3.jpg" class="img-fluid bord-img ">
+                        <div class="text-center">
+                            <img src="assets/imagens/servicos/servico_3.jpg" class="img-fluid bord-img ">
+                        </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 animacao animate-slide-in-left" data-animation-type="left" data-animation-delay="0.<?= rand(0, 4) ?>s" style="animation-delay: 0s;">
-                        <div class="my-4">
+                        <div class="px-4 my-4">
                             <h3>Buffet Corporativo para o Dia das Crianças</h3>
                             <p>
-                                Levamos nosso buffet até empresas que querem presentear filhos de colaboradores com uma festa encantadora.
+                                Leve alegria e sabor para o ambiente corporativo! Oferecemos buffet infantil personalizado para empresas celebrarem o Dia das Crianças com seus colaboradores e suas famílias. Cardápio lúdico, brinquedos, recreação e atendimento completo para encantar os pequenos — com toda a organização e pontualidade que o mundo corporativo exige.
                             </p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-lg-2 order-md-2 animacao animate-slide-in-right " data-animation-type="right" data-animation-delay="0.<?= rand(0, 4) ?>s" style="animation-delay: 0s;">
-                        <div class="my-4">
-                            <img src="assets/imagens/servicos/servicos_4.jpg" class="img-fluid bord-img ">
+                        <div class="text-center">
+                            <img src="assets/imagens/servicos/servico_4.jpg" class="img-fluid bord-img ">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-lg-1 order-md-1 animacao animate-slide-in-left" data-animation-type="left" data-animation-delay="0.<?= rand(0, 4) ?>s" style="animation-delay: 0s;">
-                        <div class="p-4 my-4">
+                        <div class="px-4 my-4">
                             <h3 >Animador de Festa</h3>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quisquam aspernatur facere enim quasi eaque. A, excepturi? Sapiente ut aperiam, magni reiciendis consectetur aspernatur, illum perspiciatis nihil, aliquid inventore molestias.
+                                Nossos animadores fazem a festa acontecer de verdade! Jogos, danças, brincadeiras e personagens que interagem com as crianças de forma divertida e segura. Ideal para aniversários, escolas, condomínios e eventos em geral. Uma energia contagiante que transforma qualquer evento em um show de alegria.
                             </p>
                         </div>
                     </div>
@@ -152,6 +158,89 @@
         </div>
     </article>
 </section>
+<section class="cardapio p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="text-start">
+                    <h1>Cardápio</h1>
+                    <hr class="mt-0">
+                </div>
+            </div>
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_4.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_5.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_6.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_7.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_3.jpg" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper cardapio">
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_4.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_5.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_6.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_7.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imagens/cardapio/cardapio_3.jpg" />
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+
 <?php
     include("./includes/footer.php");
 ?>

@@ -1,27 +1,5 @@
 const body = document.body || document.querySelector("body")
 //Swiper
-const swiper = new Swiper('.swiper-container', {
-    direction: 'vertical',
-    loop: true,
-    autoplay: {
-    delay: 4859,
-    },
-    simulateTouch: true,
-    pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-    bulletClass: 'swiper-pagination-bullet',
-    bulletActiveClass: 'swiper-pagination-bullet-active',
-    },
-    on: {
-    slideChange: function () {
-        document.querySelector('.swiper-pagination-current').textContent = swiper.realIndex + 1;
-    },
-    init: function () {
-        document.querySelector('.swiper-pagination-total').textContent = this.slides.length - this.loopedSlides * 2;
-    }
-    }
-});
 
 
 //////// Debounce do Lodash

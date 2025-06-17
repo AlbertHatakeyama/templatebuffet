@@ -61,10 +61,10 @@ else {
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
         <!--======= FOLHAS DE ESTILOS ==========-->
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        
         <link rel="stylesheet" href="<?=$url?>assets/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="<?=$url?>assets/bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="<?=$url?>assets/glider/glider.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="<?=$url?>assets/style.css">
     </head>
 <body>
